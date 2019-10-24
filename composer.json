@@ -1,19 +1,20 @@
 {
-    "name": "h4cc/wkhtmltoimage-amd64",
+    "name": "silvertipsoftware/wkhtmltoimage-amd64",
     "description": "Convert html to image using webkit (qtwebkit). Static linked linux binary for amd64 systems.",
     "keywords": ["image", "thumbnail", "snapshot", "wkhtmltoimage", "convert", "binary"],
-    "license": "LGPL Version 3",
+    "license": "LGPL-3.0-only",
     "homepage": "http://wkhtmltopdf.org/",
     "authors": [
         {
-            "name": "Julius Beckmann",
-            "email": "github@h4cc.de"
+            "name": "Andre Sonnichsen",
+            "email": "andre@silvertipsoftware.com"
         }
     ],
     "minimum-stability": "stable",
     "bin": [
         "bin/wkhtmltoimage-amd64"
     ],
-    "require": {
+    "replace": {
+        "h4cc/wkhtmltoimage-amd64": "0.12.4"
     }
 }
