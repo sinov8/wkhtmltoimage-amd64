@@ -1,5 +1,5 @@
 {
-    "name": "silvertipsoftware/wkhtmltoimage-amd64",
+    "name": "sinov8/wkhtmltoimage-amd64",
     "description": "Convert html to image using webkit (qtwebkit). Static linked linux binary for amd64 systems.",
     "keywords": ["image", "thumbnail", "snapshot", "wkhtmltoimage", "convert", "binary"],
     "license": "LGPL-3.0-only",
